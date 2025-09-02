@@ -1,7 +1,7 @@
 # Enhancing Unseen Process Behavior Prediction via Declarative Process Model Mining
 
 ## Description
-Code accompanying the paper Enhancing Unseen Process Behavior Prediction via Declarative Process Model Mining
+Code accompanying the paper Enhancing Unseen Process Behavior Prediction via Declarative Process Model Mining.  
 This project is based on and extends the implementation from [ppm_unseen_constraints](https://github.com/Qian915/ppm_unseen_constraints). 
 
 ## Getting started
