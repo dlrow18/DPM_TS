@@ -1,0 +1,4 @@
+predecessor,successor,relation,attribute,value
+Assign seriousness,Closed,ev,seriousness_2,"[Value 1, Value 2, Value 4]"
+Take in charge ticket,Closed,ev,seriousness_2,"[Value 1, Value 2, Value 4]"
+Assign seriousness,Take in charge ticket,ev,seriousness_2,"[Value 1, Value 2, Value 4]"
