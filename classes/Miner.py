@@ -66,7 +66,6 @@ class DeclarativeMiner:
 
         # calculate Directly Follows Graph (DFG)
         self.dfg = dfg_discovery.apply(eventlog)
-        # print(f"DFG finished，including {len(self.dfg)} df | time: {time.time() - start_time:.2f}s")
 
         # retrieve variants from the event log
         variants = case_statistics.get_variant_statistics(eventlog)
