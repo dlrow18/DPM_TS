@@ -21,6 +21,11 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
+Extract data-aware constraints
+```
+python DataConstraintsMiner.py
+```
+
 Create a DPM transition system
 ```
 python generate_ts.py -c config_files/helpdesk_no_resolve.config
