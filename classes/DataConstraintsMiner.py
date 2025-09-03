@@ -20,10 +20,6 @@ CASE_COL = "case:concept:name"
 ACT_COL  = "concept:name"
 TIME_COL = "time:timestamp"
 
-# ---------------------------------------------------------------------------
-# Encoding helpers
-# ---------------------------------------------------------------------------
-
 def encode_categorical(df: pd.DataFrame) -> Tuple[pd.DataFrame, Dict[str, Dict[int, str]]]:
     """Label-encode object/category columns; return encoded frame + code→label maps."""
     encoded = df.copy()
